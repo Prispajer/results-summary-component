@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+    background-color: #ffffff;
+  }
+
+  .main-container {
+    box-shadow: none;
+  }
+
+  .result-summary {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .result {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .summary {
+    height: 100%;
+    width: 100%;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  .result__information {
+    width: 250px;
+  }
+}
